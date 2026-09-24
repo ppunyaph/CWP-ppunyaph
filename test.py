@@ -1,12 +1,6 @@
-#!/usr/bin/env python3
-#6.3
-def greetings(name="noble stranger"):
-    if isinstance(name, str):
-        print("Hello, " + name + ".")
-    else:
-        print("Error! It was not a name.")
+# กำหนดฟังก์ชันชื่อ hello
+def hello():
+    print("Hello, everyone!")
 
-greetings('Alexandra')
-greetings('Wil')
-greetings()
-greetings(42)
+# เรียกใช้งานฟังก์ชัน
+hello()
