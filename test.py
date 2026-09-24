@@ -1,6 +1,7 @@
-# กำหนดฟังก์ชันชื่อ hello
-def hello():
-    print("Hello, everyone!")
+#!/usr/bin/env python3
+import sys
 
-# เรียกใช้งานฟังก์ชัน
-hello()
+if len(sys.argv) < 2:
+    print("none")
+else:
+    print(sys.argv[1].lower())

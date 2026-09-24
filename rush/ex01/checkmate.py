@@ -9,6 +9,17 @@ def checkmate(board:str):
     
     Size = len(kln)
     King = None
+
+    for ln in kln:
+        if len(ln) != Size:
+            print("Error")
+            return
+
+    num_king = sum(ln.count('K') for ln in kln)
+    if num_king != 1:
+        print("Error")
+        return
+        
     for r in range(Size):
         for c in range(Size):
             if kln[r][c] == 'K':
