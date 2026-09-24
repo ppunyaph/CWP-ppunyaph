@@ -1,4 +1,4 @@
-original_array = [6, 7, 16, 42, 8, 24, -13, 3]
+original_array = [2, 8, 9, 48, 8, 22, -12, 2]
 new_array = []
 for number in original_array:
     new_array.append(number + 2)
